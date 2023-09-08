@@ -76,11 +76,11 @@ pip3 install setuptools wheel
 git clone https://github.com/tensorflow/model-analysis.git
 cd model-analysis
 python3 setup.py bdist_wheel
-
+```
 
 This will build the TFMA wheel in the dist directory. To install the wheel from dist directory run the commands
 ```
 cd dist
 pip3 install tensorflow_model_analysis-<version>-py3-none-any.whl
-
+```
 
