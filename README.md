@@ -69,16 +69,12 @@ Install the protoc as per the link mentioned: [protoc](https://grpc.io/docs/prot
 
 Create a virtual environment by running the commands:
 
-`python3 -m venv <virtualenv_name>
-
+```
+python3 -m venv <virtualenv_name>
 source <virtualenv_name>/bin/activate
-
 pip3 install setuptools wheel
-
 git clone https://github.com/tensorflow/model-analysis.git
-
 cd model-analysis
-
-python3 setup.py bdist_wheel`
+python3 setup.py bdist_wheel
 
 
