@@ -55,7 +55,7 @@ pip install from a released version directly from git:
 
 If you have cloned the repository locally, and want to test your local change, pip install from a local folder.
 
-`pip install -e $FOLDER_OF_THE_LOCAL_LOCATION
+`pip install -e $FOLDER_OF_THE_LOCAL_LOCATION`
 
 Note that protobuf must be installed correctly for the above option since it is building TFMA from source and it requires protoc and all of its includes reference-able. Please see [protobuf install instruction](https://github.com/protocolbuffers/protobuf#protocol-compiler-installation) for see the latest install instructions.
 
@@ -76,5 +76,11 @@ pip3 install setuptools wheel
 git clone https://github.com/tensorflow/model-analysis.git
 cd model-analysis
 python3 setup.py bdist_wheel
+
+
+This will build the TFMA wheel in the dist directory. To install the wheel from dist directory run the commands
+```
+cd dist
+pip3 install tensorflow_model_analysis-<version>-py3-none-any.whl
 
 
