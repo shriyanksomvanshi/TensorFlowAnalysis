@@ -37,3 +37,4 @@ Visualization
 ### Installation
 
 The recommended way to install TFMA is using the [PyPI package](https://pypi.org/project/tensorflow-model-analysis/): 
+>pip install tensorflow-model-analysis
