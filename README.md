@@ -1,7 +1,7 @@
 # TensorFlowAnalysis
 New repo for TensorFlow practice
 
-## Source: 1.	https://www.tensorflow.org/tfx/model_analysis/get_started  
+# Source: 1.	https://www.tensorflow.org/tfx/model_analysis/get_started  
 
 ### Overview
 - TensorFlow Model Analysis (TFMA) is a tool for model evaluation.
@@ -31,3 +31,9 @@ introspection.
 - To compare a candidate and baseline model, adjust the config and provide both models to tfma.run_model_analysis.
 Visualization
 - Results can be visualized in a Jupyter notebook using included TFMA frontend components.
+
+# TensorFlow Model Analysis (TFMA) is a toolkit designed for assessing TensorFlow models. It offers the capability to evaluate models across vast data sets in a distributed fashion, employing the identical metrics set during training. Users can analyze these metrics across various data segments and display the results in Jupyter notebooks.
+
+### Installation
+
+The recommended way to install TFMA is using the [PyPI package](https://pypi.org/project/tensorflow-model-analysis/): 
