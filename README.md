@@ -47,3 +47,9 @@ pip install from [https://pypi-nightly.tensorflow.org](https://pypi-nightly.tens
 pip install from the HEAD of the git:
 
 ``pip install git+https://github.com/tensorflow/model-analysis.git#egg=tensorflow_model_analysis``
+
+pip install from a released version directly from git:
+
+``pip install git+https://github.com/tensorflow/model-analysis.git@v0.21.3#egg=tensorflow_model_analysis``
+
+
