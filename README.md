@@ -84,3 +84,9 @@ cd dist
 pip3 install tensorflow_model_analysis-<version>-py3-none-any.whl
 ```
 
+## Below are a few important videos regarding Tensorflow Analysis:
+
+- [ TensorFlow Tutorial For Beginners](https://www.youtube.com/watch?v=mSsDNGWZ7Ao)
+- [A basic TensorFlow Churn model tutorial](https://www.youtube.com/watch?v=6_2hzRopPbQ)
+
+- 
