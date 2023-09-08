@@ -55,7 +55,7 @@ pip install from a released version directly from git:
 
 If you have cloned the repository locally, and want to test your local change, pip install from a local folder.
 
-`pip install -e $FOLDER_OF_THE_LOCAL_LOCATION`
+`pip install -e $FOLDER_OF_THE_LOCAL_LOCATION
 
 Note that protobuf must be installed correctly for the above option since it is building TFMA from source and it requires protoc and all of its includes reference-able. Please see [protobuf install instruction](https://github.com/protocolbuffers/protobuf#protocol-compiler-installation) for see the latest install instructions.
 
